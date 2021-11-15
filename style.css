@@ -1,0 +1,111 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+.logoandsub span{
+    color: #e5e7eb;
+}
+.up{
+    display: flex;
+    flex-direction: column;
+    background-color: #1f2937;
+    height: 33vh;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #1f2937;
+    align-items: center;
+    
+}
+.logo{
+    font-size: 21px;
+    color: #f9faf8;
+    font-weight: 800;
+}
+.logoandsub{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.tandsub{
+display: flex;    
+flex-direction: column;
+}
+.subtitle{
+    justify-content: start;
+    width: 400px;
+    color:#e5e7eb;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 5px;
+}
+
+.testimonial{
+    height: 27vh;
+    background-color: #e5e7eb;
+    align-items: center;
+    font-size: 36px;
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: lighter;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.tname{
+   text-align: end !important ;
+}
+
+.title{
+    font-size: 25px;
+    font-weight: 700;
+    color:#f9faf8;
+}
+
+
+.upper{
+    margin-top: 30px;
+    padding: 25px;
+    display: flex;
+    
+
+}
+
+.placeholder{
+    height: 180px;
+    width: 300px;
+    background-color: #e5e7eb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
+
+
+
+
+.infoboxes{
+    display: flex;
+    justify-content: space-around;
+    height: 27vh;
+}
+.saturn, .poison, .trex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
