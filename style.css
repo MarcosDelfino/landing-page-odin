@@ -65,11 +65,13 @@ ul{
     padding: 20px;
     box-sizing: border-box;
 }
-.tname{
-   text-align: end !important ;
+.testimonial p{
+padding: 25px;    
 }
+.testimonial p span{
+  text-align: right;}
 
-.title{
+h1{
     font-size: 25px;
     font-weight: 700;
     color:#f9faf8;
@@ -94,18 +96,55 @@ ul{
     flex: 1;
 }
 
+.info{
+    text-align: center;
+    padding: 25px;
+    font-size: 36px ;
+    font-weight: 600;
+}
 
-
-
+.infotainer{
+    display: flex;
+    flex-direction: column;
+}
 
 .infoboxes{
     display: flex;
-    justify-content: space-around;
-    height: 27vh;
+    gap: 10px;
+    height: 20vh;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffff;
+    flex-grow: 0;
+    
 }
+
 .saturn, .poison, .trex{
     display: flex;
     flex-direction: column;
     align-items: center;
+    max-width: 100px;
+    padding: 15px;
+    text-align: center;
 
+}
+footer {
+    background-color: #1f2937;
+    height: 30px;
+    color: #e5e7eb;
+    text-align: center;
+    font-size: 15px;
+    font-weight:lighter;
+}
+footer span{
+    font-size: 8px;
+    margin-left: 20px;
+}
+.ctasec{
+    background-color: #ffff;
+}
+.ctacont{
+    background-color: #3882f6;
+    padding: 20px;
+    
 }
