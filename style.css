@@ -39,8 +39,8 @@ body{
 }
 
 .tandsub{
-display: flex;    
-flex-direction: column;
+    display: flex;    
+    flex-direction: column;
 }
 .subtitle{
     justify-content: start;
@@ -60,16 +60,31 @@ ul{
     align-items: center;
     font-size: 36px;
     font-family: sans-serif;
-    font-style: italic;
+    font-style:normal ;
     font-weight: lighter;
     padding: 20px;
     box-sizing: border-box;
+    word-wrap: break-word;    
+    
+}
+.tent{
+    display: flex;
+    flex-direction: column;
+    max-height: fit-content;
+
+    
 }
 .testimonial p{
-padding: 25px;    
+    padding: 25px;
 }
-.testimonial p span{
-  text-align: right;}
+.testimonial span{
+    font-style: italic;
+    justify-content: flex-end;
+    margin-top: 10px;
+    margin-left: 70%;
+
+    
+}
 
 h1{
     font-size: 25px;
@@ -85,20 +100,20 @@ h1{
     padding: 25px;
     display: flex;
     align-content: center;
-    /* justify-content: center; */
+    justify-content: space-between;
 
     
 
 }
 
 .placeholder{
-    max-height: 400px;
-    max-width: 450px;
+    min-height: 200px;
+    min-width: 450px;
     background-color: #e5e7eb;
     display: flex;
     align-items: center;
     justify-content: center;
-    flex: 1;
+    
 }
 
 .info{
@@ -120,7 +135,7 @@ h1{
     align-items: center;
     justify-content: center;
     background-color: #ffff;
-    flex-grow: 0;
+    margin-bottom: 19px;
     
 }
 .infoboxes img{
