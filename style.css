@@ -8,6 +8,7 @@
 body{
     display: flex;
     flex-direction: column;
+    height: 100vh;
 }
 .logoandsub span{
     color: #e5e7eb;
@@ -25,6 +26,8 @@ body{
     justify-content: space-between;
     background-color: #1f2937;
     margin: 10px;
+    margin-left: 80px;
+    margin-right: 80px;
     
 }
 .logo{
@@ -41,11 +44,13 @@ body{
 .tandsub{
     display: flex;    
     flex-direction: column;
+    margin-top: 30px;
 }
 .subtitle{
     justify-content: start;
     width: 400px;
     color:#e5e7eb;
+    width: 30vh;
 }
 
 ul{
@@ -55,28 +60,30 @@ ul{
 }
 
 .testimonial{
-    height: 27vh;
+    height: 15vh;
     background-color: #e5e7eb;
     align-items: center;
-    font-size: 36px;
     font-family: sans-serif;
     font-style:normal ;
-    font-weight: lighter;
     padding: 20px;
     box-sizing: border-box;
-    word-wrap: break-word;    
+    /* word-wrap: break-word;   */
+    display: table;
+   
     
 }
 .tent{
     display: flex;
     flex-direction: column;
-    max-height: fit-content;
-
+    font-size: 26px;
+    font-weight: lighter;
+    display: table;
     
 }
 .testimonial p{
     padding: 25px;
-}
+    display: table-row;
+    }
 .testimonial span{
     font-style: italic;
     justify-content: flex-end;
@@ -90,6 +97,7 @@ h1{
     font-size: 25px;
     font-weight: 700;
     color:#f9faf8;
+    width: 30vh;
 }
 
 
@@ -97,22 +105,38 @@ h1{
     
     margin-left:  80px ;
     margin-right:  80px ;
-    padding: 25px;
     display: flex;
     align-content: center;
     justify-content: space-between;
+    
 
     
 
 }
+.upper button{
+    max-width: 10vh; 
+    align-self: flex-end;   
+    min-width: 10vh;
+    background-color: #3882f6;
+    border-radius: 3px;
+    border-style: none;
+    padding: 2px;
+    font-weight: 500;
+    color: white;
 
+    
+}
 .placeholder{
-    min-height: 200px;
-    min-width: 450px;
-    background-color: #e5e7eb;
+    max-height: 15vh;
+    min-width: 31vh;
+    background-color: #babfc9;
     display: flex;
     align-items: center;
     justify-content: center;
+    opacity: 0.5;
+    
+    
+    
     
 }
 
@@ -133,7 +157,7 @@ h1{
     gap: 10px;
     height: 20vh;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     background-color: #ffff;
     margin-bottom: 19px;
     
@@ -141,32 +165,34 @@ h1{
 .infoboxes img{
     border-style: solid;
     border-radius: 7px;
-    border-color: #3882f6 ;
+    border-color: #3882f6;
+    width: 100px;
+    height: 100px;
 }
+    
 
 .saturn, .poison, .trex{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100px;
-    height: 100px;
-    padding: 15px;
     text-align: center;
     background-size: 100%;
     
-
-}
+    }
 footer {
     background-color: #1f2937;
     height: 30px;
     color: #e5e7eb;
-    text-align: center;
-    font-size: 15px;
+    display: flex;
+    align-items: center;
+    font-size: 11px;
     font-weight:lighter;
+    justify-content: center;
+    
 }
 footer span{
     font-size: 8px;
-    margin-left: 20px;
+    margin-left: 30px;
 }
 .ctasec{
     background-color: #ffff;
@@ -175,8 +201,40 @@ footer span{
     background-color: #3882f6;
     padding: 20px;
     margin:  40px 80px 40px 80px;
-    border-radius: 5px;
+    border-radius: 5px;    
+    display: flex;
+    justify-content: space-between;
 
-
+}
+.ctasec button{
+    width: 8vh;
+    max-height: 35px;
+    margin-right: 40px;
+    background-color:#3882f6;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 4px;
+    border-color:#f9faf8;
+    color: #f9faf8;
+    /* margin-top: 20px; */
+    
     
 }
+.ctacol{
+    display: flex;
+    flex-direction: column;
+    margin-left: 35px;
+    
+}
+.cta{
+    font-weight: 500;
+    color:#f9faf8;
+    
+}
+.ctasub{
+    font-weight: lighter;
+    color:#e5e7eb;
+}
+/* .tname{
+    margin-top: 20px;
+} */
